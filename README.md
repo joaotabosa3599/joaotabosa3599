@@ -6,13 +6,15 @@
 ---
 
 ## 🚀 Tecnologias
-- JavaScript
-- React JS
-- HTML5
-- CSS3
-- Git
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=joaotabosa3599&layout=compact&theme=radical" alt="Principais Linguagens" />
+
 
 ---
+
+## 📊 Estatísticas
+<div>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=joaotabosa3599&theme=radical" alt="GitHub Streak" />
+  </div>
 
 ## 📚 Atualmente estudando
 - Integração com APIs REST
@@ -20,12 +22,6 @@
 - Desenvolvimento full-stack com React
 
 ---
-
-## 📊 Estatísticas
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=joaotabosa3599&show_icons=true&theme=radical)
-
-![Principais Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=joaotabosa3599&layout=compact&theme=radical)
-
 
 
 ---

@@ -1,16 +1,35 @@
-## Hi there 👋
+# 👋 Olá, eu sou o João Tabosa
 
-<!--
-**joaotabosa3599/joaotabosa3599** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Estudante de Engenharia da Computação  
+💻 Focado em desenvolvimento Front-end
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Tecnologias
+- JavaScript
+- React JS
+- HTML5
+- CSS3
+- Git
+
+---
+
+## 📚 Atualmente estudando
+- Integração com APIs REST
+- Bancos de dados relacionais (SQL)
+- Desenvolvimento full-stack com React
+
+---
+
+## 📊 Estatísticas
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=joaotabosa3599&show_icons=true&theme=radical)
+
+![Principais Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=joaotabosa3599&layout=compact&theme=radical)
+
+
+
+---
+
+## 📫 Contato
+- LinkedIn: linkedin.com/in/joãotabosa3599
+- Email: joao.tabosa3599@gmail.com

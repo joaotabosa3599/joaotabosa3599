@@ -2,7 +2,7 @@
 
 👨‍💻 **Desenvolvedor Front-end | Estudante de Engenharia da Computação**
 
-Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC), com grande foco no desenvolvimento de interfaces web modernas e escaláveis. Possuo uma base lógica sólida e busco constantemente unir design minimalista com código eficiente. No momento, estou em busca de oportunidades de estágio em Front-end para aplicar meus conhecimentos e gerar impacto real.
+Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC), com grande foco no desenvolvimento de interfaces web modernas e escaláveis. Possuo uma base lógica sólida e busco constantemente unir design minimalista com código eficiente.
 
 ---
 

@@ -11,6 +11,8 @@ Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade
 ### Front-end
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -24,7 +26,7 @@ Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade
 
 ## 💻 O que estou construindo & Estudando
 
-- 🎬 **Cinesol:** Meu projeto atual em foco, sendo desenvolvido integralmente utilizando **TypeScript** para garantir tipagem estática e maior escalabilidade.
+- 🎬 **CineSol Cinema:** Sistema digital de bilheteria e bomboniere desenvolvido como projeto trainee (PS 2026.1) para a empresa júnior Loading Jr. A aplicação web simula um ciclo real de desenvolvimento frontend, construída com **Next.js**, **TypeScript** e **Tailwind CSS**, utilizando **React Hook Form** + **Zod** para formulários e validações, além de **TanStack Query (React Query)** e **Axios** para consumo de dados e gerenciamento de estado.
 - 🛒 **E-commerce Completo:** Desenvolvimento de uma plataforma de vendas construída com o ecossistema **React**.
 - 📚 **Foco de Estudos Contínuo:** Integração avançada com APIs REST, modelagem de bancos de dados relacionais (SQL) e aprimoramento no ecossistema Full-stack.
 

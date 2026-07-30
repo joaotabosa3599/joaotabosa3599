@@ -34,7 +34,7 @@ Atualmente cursando o 6º semestre de Engenharia da Computação na Universidade
 ## 📊 Estatísticas do GitHub
 
 <p align="left">
-  <img src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.vercel.app/?user=joaotabosa3599&theme=radical&hide_border=true&v=1" alt="GitHub Streak" />
 </p>
 
 ---

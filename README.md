@@ -2,7 +2,7 @@
 
 👨‍💻 **Desenvolvedor Front-end | Estudante de Engenharia da Computação**
 
-Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC), com grande foco no desenvolvimento de interfaces web modernas e escaláveis. Possuo uma base lógica sólida e busco constantemente unir design minimalista com código eficiente.
+Atualmente cursando o 6º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC), com grande foco no desenvolvimento de interfaces web modernas e escaláveis. Possuo uma base lógica sólida e busco constantemente unir design minimalista com código eficiente.
 
 ---
 
@@ -26,8 +26,7 @@ Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade
 
 ## 💻 O que estou construindo & Estudando
 
-- 🎬 **CineSol Cinema:** Sistema digital de bilheteria e bomboniere desenvolvido como projeto trainee (PS 2026.1) para a empresa júnior Loading Jr. A aplicação web simula um ciclo real de desenvolvimento frontend, construída com **Next.js**, **TypeScript** e **Tailwind CSS**, utilizando **React Hook Form** + **Zod** para formulários e validações, além de **TanStack Query (React Query)** e **Axios** para consumo de dados e gerenciamento de estado.
-- 🛒 **E-commerce Completo:** Desenvolvimento de uma plataforma de vendas construída com o ecossistema **React**.
+- 💸 **Liquid Journal:** Um SaaS financeiro voltado para registro de operações reais, com banco de dados otimizado para suportar grandes volumes de operações e também com consumo de API's em tempo real. Essa aplicação terá como foco a otimização, grande gama de opções para o usuário e também construção intensiva de uma aplicação web-segura.
 - 📚 **Foco de Estudos Contínuo:** Integração avançada com APIs REST, modelagem de bancos de dados relacionais (SQL) e aprimoramento no ecossistema Full-stack.
 
 ---
@@ -35,7 +34,7 @@ Atualmente cursando o 5º semestre de Engenharia da Computação na Universidade
 ## 📊 Estatísticas do GitHub
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=joaotabosa3599&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---

@@ -2,7 +2,7 @@
 
 👨‍💻 **Desenvolvedor Full Stack | Estudante de Engenharia da Computação**
 
-Cursando o 6º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC). Comecei focado em front-end, mas construir o **Liquid Journal** do zero — banco de dados, autenticação, APIs em tempo real e a interface — me levou pro full stack de verdade: hoje penso em produto de ponta a ponta, da modelagem do schema até a última animação da UI.
+Cursando o 6º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC). Comecei focado em front-end, mas construir aplicações do zero — banco de dados, autenticação, APIs em tempo real e a interface — me levou pro full stack de verdade: hoje penso em produto de ponta a ponta, da modelagem do schema até a última animação da UI.
 
 Gosto de unir design minimalista com engenharia sólida: código que é fácil de ler tanto quanto de usar.
 
@@ -25,6 +25,9 @@ Gosto de unir design minimalista com engenharia sólida: código que é fácil d
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+### Mobile
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)
 
 ---
 

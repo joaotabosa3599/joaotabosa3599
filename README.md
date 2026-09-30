@@ -25,7 +25,39 @@ embutido, curva de patrimônio e calendário de ganhos e perdas.
 
 Next.js · TypeScript · Supabase · PostgreSQL · Tailwind
 
-[**Abrir o app →**](https://liquid-journal-trading-app.vercel.app) · produto comercial, código fechado
+[**Abrir o app →**](https://liquid-journal-trading-app.vercel.app)
+
+> [!NOTE]
+> Produto comercial em desenvolvimento, por isso o repositório é privado.
+> O app está no ar e aberto para uso.
+
+<details>
+<summary><b>Como ele é montado</b></summary>
+
+<br>
+
+```mermaid
+flowchart LR
+    U([Trader]) --> APP["Next.js App Router<br/>React · Tailwind"]
+    APP --> SA["Server Actions<br/>e Route Handlers"]
+    APP --> TV["Widgets TradingView<br/>cotações e calendário"]
+    SA --> AUTH["Supabase Auth<br/>e-mail e Google"]
+    SA --> DB[("PostgreSQL<br/>Row Level Security")]
+    SA --> FX["API de câmbio<br/>BRL, USD, EUR"]
+
+    classDef app fill:#3b82f6,stroke:#1d4ed8,color:#fff
+    classDef data fill:#0891b2,stroke:#0e7490,color:#fff
+    classDef ext fill:#475569,stroke:#334155,color:#fff
+    class APP,SA app
+    class DB,AUTH data
+    class FX,TV ext
+```
+
+Cada trader só enxerga as próprias operações, e isso é garantido no banco
+por Row Level Security — não por uma checagem na aplicação que alguém possa
+esquecer de escrever.
+
+</details>
 
 ### [CineSol](https://cinesol-cinema.vercel.app) · reserva de cinema
 
@@ -94,8 +126,19 @@ React · TypeScript · Tailwind · Framer Motion
 </tr>
 </table>
 
-Na faculdade também trabalho com Java e C — estruturas de dados e processamento de texto
-estão nos repositórios públicos.
+<details>
+<summary><b>Também trabalho com</b></summary>
+
+<br>
+
+Java e C, da graduação em Engenharia da Computação. Estruturas de dados,
+processamento de texto e um sistema de gestão de funcionários estão nos
+repositórios públicos.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+
+</details>
 
 ## Estudando agora
 

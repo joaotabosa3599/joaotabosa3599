@@ -84,7 +84,6 @@ Arquitetura de API REST, modelagem relacional e Row Level Security. O objetivo Ã
 
 <div align="center">
 
-<img height="165" src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true&border_radius=10&v=2" alt="GitHub streak" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaotabosa3599&layout=compact&theme=radical&hide_border=true&border_radius=10&langs_count=6" alt="Linguagens mais usadas" />
+<img src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true&border_radius=10&v=2" alt="GitHub streak" width="500" />
 
 </div>

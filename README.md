@@ -1,8 +1,8 @@
 <div align="center">
 
-# João Tabosa
+<img src="assets/banner.svg" alt="João Tabosa — Full Stack Developer" width="100%" />
 
-**Full Stack Developer** &nbsp;·&nbsp; Engenharia da Computação · UFC
+Engenharia da Computação · Universidade Federal do Ceará
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joãotabosa3599)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/j_pedro32k)

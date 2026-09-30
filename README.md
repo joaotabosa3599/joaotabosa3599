@@ -1,53 +1,29 @@
 # João Tabosa
 
-👨‍💻 **Desenvolvedor Full Stack | Estudante de Engenharia da Computação**
+```
+watchlist                          signal
+TypeScript                         ▲ daily driver
+Next.js (React)                    ▲ daily driver
+Node.js + Postgres (Supabase)      ▲ shipping in prod
+Tailwind CSS                       ▲ daily driver
+Capacitor, iOS/Android             ○ building position
+Java, C                            ○ from coursework
+```
 
-Cursando o 6º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC). Comecei focado em front-end, mas construir aplicações do zero — banco de dados, autenticação, APIs em tempo real e a interface — me levou pro full stack de verdade: hoje penso em produto de ponta a ponta, da modelagem do schema até a última animação da UI.
+Curso o 6º semestre de Engenharia da Computação na Universidade Federal do Ceará (UFC). Construí o [Liquid Journal](https://github.com/joaotabosa3599/Liquid-Journal---Trading-app) do schema do banco até a última animação da interface, e isso me deixou full stack na prática: hoje penso em modelagem de dados e autenticação com a mesma atenção que dou ao layout.
 
-Gosto de unir design minimalista com engenharia sólida: código que é fácil de ler tanto quanto de usar.
+## Construindo agora
 
----
+**Liquid Journal** — diário de trading como SaaS. Registro de operações reais, contas por moeda (BRL/USD/EUR) com cotação ao vivo, calculadora de PNL com câmbio embutido e dashboard alimentado por dados de mercado em tempo real.
 
-## 🚀 Tecnologias e Ferramentas
+**Estudo contínuo** — arquitetura de API REST, modelagem relacional e Row Level Security. O objetivo é desenhar de onde o dado vem, não só consumi-lo.
 
-### Front-end
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## Atividade
 
-### Back-end, Dados & Linguagens
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+<img src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true&v=2" alt="GitHub streak" width="480" />
 
-### Mobile
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)
+## Contato
 
----
-
-## 💻 O que estou construindo & estudando
-
-- 💸 **Liquid Journal** — SaaS financeiro para registro de operações reais de trading. Modelagem de banco relacional pensada para alto volume de operações, autenticação e multi-moeda (BRL/USD/EUR com cotação ao vivo), consumo de APIs de mercado em tempo real e uma camada de segurança pensada desde o schema até a UI.
-- 📚 **Foco de estudos contínuo** — arquitetura de APIs REST, modelagem de bancos relacionais (SQL), Row Level Security e o ecossistema full-stack como um todo — não só consumir dado, mas desenhar de onde ele vem.
-
----
-
-## 📊 Estatísticas do GitHub
-
-<p align="left">
-  <img src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true&v=2" alt="GitHub Streak" />
-</p>
-
----
-
-## 📫 Como me encontrar
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joãotabosa3599)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/j_pedro32k)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joao.tabosa3599@gmail.com)
+- [LinkedIn](https://linkedin.com/in/joãotabosa3599)
+- [Instagram](https://instagram.com/j_pedro32k)
+- [E-mail](mailto:joao.tabosa3599@gmail.com)

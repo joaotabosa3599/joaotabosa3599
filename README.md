@@ -25,7 +25,7 @@ embutido, curva de patrimônio e calendário de ganhos e perdas.
 
 Next.js · TypeScript · Supabase · PostgreSQL · Tailwind
 
-[**Abrir o app →**](https://liquid-journal-trading-app.vercel.app)
+[**Abrir o app →**](https://liquid-journal-trading-app.vercel.app) · produto comercial, código fechado
 
 ### [CineSol](https://cinesol-cinema.vercel.app) · reserva de cinema
 
@@ -42,6 +42,14 @@ Loja com autenticação, carrinho persistente e painel do cliente.
 React · Vite · JavaScript
 
 [**Ver demo →**](https://anabijus-ecommerce.vercel.app) · [código](https://github.com/joaotabosa3599/anabijus-ecommerce)
+
+### [Portfólio](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) · site pessoal
+
+Meus projetos em detalhe, com estudo de caso e histórico de experiência.
+
+React · TypeScript · Tailwind · Framer Motion
+
+[**Ver site →**](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) · [código](https://github.com/joaotabosa3599/portfolio)
 
 ## Stack
 

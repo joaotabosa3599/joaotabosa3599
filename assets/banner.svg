@@ -64,6 +64,9 @@
           <tspan fill="#a48bfb">const</tspan> dev <tspan fill="#5eead4">=</tspan> {
           <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze"/>
         </text>
+        <text x="72" y="307" opacity="0">}
+          <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.5s" fill="freeze"/>
+        </text>
       </g>
 
       <text x="72" y="130" font-size="64" font-weight="800" fill="#f5f5f5" letter-spacing="-2" opacity="0">João Tabosa
@@ -86,11 +89,11 @@
 
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.2s" fill="freeze"/>
-        <rect x="72" y="248" width="356" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.10"/>
+        <rect x="72" y="248" width="432" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.10"/>
         <circle cx="94" cy="265" r="4" fill="#34d399">
           <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
         </circle>
-        <text x="108" y="270" font-size="13.5" fill="#c9cbd1" letter-spacing="0.2">Engenharia da Computação · Universidade Federal do Ceará</text>
+        <text x="108" y="270" font-size="13.5" fill="#c9cbd1" letter-spacing="0.2" textLength="380" lengthAdjust="spacing">Engenharia da Computação · Universidade Federal do Ceará</text>
       </g>
     </g>
 

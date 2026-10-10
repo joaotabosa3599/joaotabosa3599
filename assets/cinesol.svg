@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-label="CineSol">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15171c"/><stop offset="1" stop-color="#111318"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f5c76f" stop-opacity="0.22"/><stop offset="1" stop-color="#f5c76f" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="600" height="360" rx="20"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/></pattern>
+  </defs>
+  <g clip-path="url(#frame)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="600" height="360" fill="url(#card)"/>
+    <rect width="600" height="360" fill="url(#grid)"/>
+    <circle cx="470" cy="150" r="230" fill="url(#halo)"/>
+    <rect x="0.5" y="0.5" width="599" height="359" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+    <circle cx="26" cy="24" r="4.5" fill="#f43f5e"/><circle cx="42" cy="24" r="4.5" fill="#f5c76f"/><circle cx="58" cy="24" r="4.5" fill="#34d399"/>
+    <rect x="170" y="12" width="260" height="22" rx="11" fill="#ffffff" fill-opacity="0.05"/>
+    <text x="300" y="27.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" fill="#64666d">cinesol-cinema.vercel.app</text>
+
+    <g transform="translate(300 134)">
+      <path d="M-100 -76 Q0 -98 100 -76" fill="none" stroke="#f5c76f" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+      <path d="M-100 -76 Q0 -98 100 -76 L100 -60 Q0 -82 -100 -60 Z" fill="#f5c76f" opacity="0.10"/>
+      <g fill="#ffffff" fill-opacity="0.10">
+        <rect x="-98" y="-40" width="20" height="18" rx="5"/><rect x="-72" y="-40" width="20" height="18" rx="5"/><rect x="-46" y="-40" width="20" height="18" rx="5"/><rect x="-20" y="-40" width="20" height="18" rx="5"/><rect x="6" y="-40" width="20" height="18" rx="5"/><rect x="32" y="-40" width="20" height="18" rx="5"/><rect x="58" y="-40" width="20" height="18" rx="5"/>
+        <rect x="-98" y="-14" width="20" height="18" rx="5"/><rect x="-72" y="-14" width="20" height="18" rx="5"/><rect x="6" y="-14" width="20" height="18" rx="5"/><rect x="32" y="-14" width="20" height="18" rx="5"/><rect x="58" y="-14" width="20" height="18" rx="5"/><rect x="84" y="-14" width="20" height="18" rx="5"/>
+        <rect x="-98" y="12" width="20" height="18" rx="5"/><rect x="-46" y="12" width="20" height="18" rx="5"/><rect x="-20" y="12" width="20" height="18" rx="5"/><rect x="6" y="12" width="20" height="18" rx="5"/><rect x="58" y="12" width="20" height="18" rx="5"/><rect x="84" y="12" width="20" height="18" rx="5"/>
+        <rect x="-72" y="38" width="20" height="18" rx="5"/><rect x="-46" y="38" width="20" height="18" rx="5"/><rect x="-20" y="38" width="20" height="18" rx="5"/><rect x="6" y="38" width="20" height="18" rx="5"/><rect x="32" y="38" width="20" height="18" rx="5"/><rect x="58" y="38" width="20" height="18" rx="5"/>
+      </g>
+      <g fill="#ffffff" fill-opacity="0.28">
+        <rect x="84" y="-40" width="20" height="18" rx="5"/><rect x="-72" y="12" width="20" height="18" rx="5"/><rect x="84" y="38" width="20" height="18" rx="5"/><rect x="-98" y="38" width="20" height="18" rx="5"/>
+      </g>
+      <g fill="#f5c76f" filter="url(#glow)">
+        <rect x="-46" y="-14" width="20" height="18" rx="5"><animate attributeName="opacity" values="0.4;1;1" keyTimes="0;0.3;1" dur="3s" repeatCount="indefinite"/></rect>
+        <rect x="-20" y="-14" width="20" height="18" rx="5"><animate attributeName="opacity" values="0.4;0.4;1;1" keyTimes="0;0.2;0.5;1" dur="3s" repeatCount="indefinite"/></rect>
+        <rect x="32" y="12" width="20" height="18" rx="5"><animate attributeName="opacity" values="0.4;0.4;1;1" keyTimes="0;0.45;0.75;1" dur="3s" repeatCount="indefinite"/></rect>
+      </g>
+      <text x="0" y="86" text-anchor="middle" font-size="11" fill="#9a9ca3" font-family="'SFMono-Regular', Consolas, Menlo, monospace">E5 · E6 · G8  ·  <tspan fill="#f5c76f" font-weight="700">3 assentos</tspan></text>
+    </g>
+
+    <g transform="translate(36 268)">
+      <text font-size="30" font-weight="800" fill="#f5f5f5" letter-spacing="-0.8">CineSol</text>
+      <text y="28" font-size="14.5" fill="#9a9ca3">Escolha de assento, combo e compra até a confirmação.</text>
+    </g>
+    <rect x="0" y="356" width="600" height="4" fill="#f5c76f"/>
+  </g>
+</svg>

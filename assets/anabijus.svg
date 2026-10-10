@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-label="Anabijus">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15171c"/><stop offset="1" stop-color="#111318"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f43f5e" stop-opacity="0.22"/><stop offset="1" stop-color="#f43f5e" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="600" height="360" rx="20"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/></pattern>
+  </defs>
+  <g clip-path="url(#frame)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="600" height="360" fill="url(#card)"/>
+    <rect width="600" height="360" fill="url(#grid)"/>
+    <circle cx="470" cy="150" r="230" fill="url(#halo)"/>
+    <rect x="0.5" y="0.5" width="599" height="359" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+    <circle cx="26" cy="24" r="4.5" fill="#f43f5e"/><circle cx="42" cy="24" r="4.5" fill="#f5c76f"/><circle cx="58" cy="24" r="4.5" fill="#34d399"/>
+    <rect x="170" y="12" width="260" height="22" rx="11" fill="#ffffff" fill-opacity="0.05"/>
+    <text x="300" y="27.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" fill="#64666d">anabijus-ecommerce.vercel.app</text>
+
+    <g transform="translate(300 126)">
+      <g transform="translate(0 -6)">
+        <animateTransform attributeName="transform" type="translate" values="0 -6;0 -14;0 -6" dur="4s" repeatCount="indefinite"/>
+        <polygon points="-60,-40 -30,-72 30,-72 60,-40 0,40" fill="#f43f5e" fill-opacity="0.18" stroke="#f43f5e" stroke-width="2" stroke-linejoin="round"/>
+        <polygon points="-60,-40 -30,-72 -18,-40" fill="#f43f5e" fill-opacity="0.35"/>
+        <polygon points="-18,-40 -30,-72 30,-72 18,-40" fill="#f43f5e" fill-opacity="0.22"/>
+        <polygon points="18,-40 30,-72 60,-40" fill="#f43f5e" fill-opacity="0.45"/>
+        <polygon points="-60,-40 -18,-40 0,40" fill="#f43f5e" fill-opacity="0.32"/>
+        <polygon points="18,-40 60,-40 0,40" fill="#f43f5e" fill-opacity="0.5"/>
+        <polygon points="-18,-40 18,-40 0,40" fill="#fda4af" fill-opacity="0.35"/>
+        <line x1="-60" y1="-40" x2="60" y2="-40" stroke="#fda4af" stroke-opacity="0.8" stroke-width="1.5"/>
+        <line x1="-18" y1="-40" x2="-30" y2="-72" stroke="#fda4af" stroke-opacity="0.6"/>
+        <line x1="18" y1="-40" x2="30" y2="-72" stroke="#fda4af" stroke-opacity="0.6"/>
+        <line x1="-18" y1="-40" x2="0" y2="40" stroke="#fda4af" stroke-opacity="0.6"/>
+        <line x1="18" y1="-40" x2="0" y2="40" stroke="#fda4af" stroke-opacity="0.6"/>
+      </g>
+      <g fill="#ffffff" filter="url(#glow)">
+        <path d="M-96 -70 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"><animate attributeName="opacity" values="0;1;0" dur="2.6s" repeatCount="indefinite"/></path>
+        <path d="M92 -20 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5z"><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="1s" repeatCount="indefinite"/></path>
+        <path d="M70 -90 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z"><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="1.8s" repeatCount="indefinite"/></path>
+      </g>
+      <ellipse cx="0" cy="68" rx="70" ry="8" fill="#f43f5e" fill-opacity="0.18">
+        <animate attributeName="rx" values="70;58;70" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <g transform="translate(-74 84)" font-size="11" font-family="'SFMono-Regular', Consolas, Menlo, monospace">
+        <rect width="148" height="24" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+        <circle cx="16" cy="12" r="4" fill="#f43f5e"/>
+        <text x="28" y="16" fill="#c9cbd1">carrinho · <tspan fill="#f5f5f5" font-weight="700">3 itens</tspan></text>
+      </g>
+    </g>
+
+    <g transform="translate(36 268)">
+      <text font-size="30" font-weight="800" fill="#f5f5f5" letter-spacing="-0.8">Anabijus</text>
+      <text y="28" font-size="14.5" fill="#9a9ca3">Loja de joias com carrinho persistente e painel do cliente.</text>
+    </g>
+    <rect x="0" y="356" width="600" height="4" fill="#f43f5e"/>
+  </g>
+</svg>

@@ -1,35 +1,53 @@
 <div align="center">
 
+<a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner.svg" alt="João Tabosa, Full Stack Developer" width="100%">
+  <img src="assets/banner.svg" alt="João Tabosa, Full Stack Developer. Construo aplicações web do banco de dados à interface." width="100%">
 </picture>
+</a>
 
-Construo aplicações web do banco de dados à interface.
-Engenharia da Computação · Universidade Federal do Ceará
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joãotabosa3599)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/j_pedro32k)
-[![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joao.tabosa3599@gmail.com)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-7F5AF5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joãotabosa3599) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/j_pedro32k) [![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joao.tabosa3599@gmail.com)
 
 </div>
 
+<br>
+
 ## Projetos
 
-### [Liquid Journal](https://liquid-journal-trading-app.vercel.app) · diário de trading
+<a href="https://liquid-journal-trading-app.vercel.app">
+  <img src="assets/debrief.svg" alt="Debrief, diário de trading com análise de performance. Opere com dados, evolua com evidências." width="100%">
+</a>
 
-Um SaaS onde traders registram suas operações e enxergam o próprio desempenho.
+<div align="center">
+
+[![Abrir o app](https://img.shields.io/badge/Abrir_o_app-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://liquid-journal-trading-app.vercel.app) &nbsp; ![Status](https://img.shields.io/badge/Produto_comercial-reposit%C3%B3rio_privado-12161E?style=for-the-badge&labelColor=0D1017) &nbsp; ![Beta](https://img.shields.io/badge/Gr%C3%A1tis_em_beta-sem_cart%C3%A3o-22C55E?style=for-the-badge&labelColor=0D1017)
+
+</div>
+
+**Debrief** é um SaaS onde traders registram cada operação com o contexto que justificou
+a entrada e descobrem, nos próprios números, o que funciona no seu operacional.
 Contas em BRL, USD e EUR com cotação ao vivo, calculadora de resultado com câmbio
-embutido, curva de patrimônio e calendário de ganhos e perdas.
-
-Next.js · TypeScript · Supabase · PostgreSQL · Tailwind
-
-[**Abrir o app →**](https://liquid-journal-trading-app.vercel.app)
+embutido, prints e notas em cada trade, tags por estratégia, calendário de PNL,
+feedback de IA sobre o histórico, exportação em PDF e notificações push.
 
 > [!NOTE]
 > Produto comercial em desenvolvimento, por isso o repositório é privado.
-> O app está no ar e aberto para uso.
+> O app está no ar e aberto para uso. Antes se chamava Liquid Journal.
+
+<details open>
+<summary><b>Registro de um trade, do ativo ao PNL</b> · GIF de 27s</summary>
+
+<br>
+
+<img src="assets/debrief-demo.gif" alt="Demonstração: no dashboard do Debrief, um trade em XAUUSD é importado pelo buscador de ativos, a calculadora estima o PNL em dólar, o print do gráfico e as notas são anexados, e ao salvar os indicadores e a curva de patrimônio se atualizam." width="100%">
+
+<p align="center"><sub>Buscar o ativo · informar entrada e saída · a calculadora fecha o PNL na moeda da conta · anexar o print e as notas · salvar e ver o dashboard se atualizar</sub></p>
+
+</details>
 
 <details>
 <summary><b>Como ele é montado</b></summary>
@@ -37,20 +55,29 @@ Next.js · TypeScript · Supabase · PostgreSQL · Tailwind
 <br>
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "fontFamily": "-apple-system, Segoe UI, Helvetica, Arial, sans-serif",
+  "primaryColor": "#12161e", "primaryTextColor": "#f3f4f6", "primaryBorderColor": "#273040",
+  "lineColor": "#2563eb", "edgeLabelBackground": "#0d1017", "clusterBkg": "#0d1017"
+}}}%%
 flowchart LR
-    U([Trader]) --> APP["Next.js App Router<br/>React · Tailwind"]
+    U([Trader]) --> APP["Next.js App Router<br/>React · Tailwind · ECharts"]
     APP --> SA["Server Actions<br/>e Route Handlers"]
-    APP --> TV["Widgets TradingView<br/>cotações e calendário"]
     SA --> AUTH["Supabase Auth<br/>e-mail e Google"]
     SA --> DB[("PostgreSQL<br/>Row Level Security")]
+    SA --> ST["Supabase Storage<br/>prints dos trades"]
     SA --> FX["API de câmbio<br/>BRL, USD, EUR"]
+    SA --> AI["Claude API<br/>feedback de performance"]
+    SA --> PUSH["Web Push<br/>notificações"]
 
-    classDef app fill:#3b82f6,stroke:#1d4ed8,color:#fff
-    classDef data fill:#0891b2,stroke:#0e7490,color:#fff
-    classDef ext fill:#475569,stroke:#334155,color:#fff
+    classDef user fill:#12161e,stroke:#9ca3af,color:#f3f4f6
+    classDef app fill:#2563eb,stroke:#60a5fa,color:#fff
+    classDef data fill:#14532d,stroke:#22c55e,color:#fff
+    classDef ext fill:#1a1f29,stroke:#64748b,color:#f3f4f6
+    class U user
     class APP,SA app
-    class DB,AUTH data
-    class FX,TV ext
+    class DB,AUTH,ST data
+    class FX,AI,PUSH ext
 ```
 
 Cada trader só enxerga as próprias operações, e isso é garantido no banco
@@ -59,63 +86,79 @@ esquecer de escrever.
 
 </details>
 
-### [CineSol](https://cinesol-cinema.vercel.app) · reserva de cinema
-
-Escolha de assento, montagem de combo e fluxo de compra até a confirmação.
-
-Next.js · TypeScript · Tailwind
-
-[**Ver demo →**](https://cinesol-cinema.vercel.app) · [código](https://github.com/joaotabosa3599/cinesol-cinema)
-
-### [Anabijus](https://anabijus-ecommerce.vercel.app) · e-commerce de joias
-
-Loja com autenticação, carrinho persistente e painel do cliente.
-
-React · Vite · JavaScript
-
-[**Ver demo →**](https://anabijus-ecommerce.vercel.app) · [código](https://github.com/joaotabosa3599/anabijus-ecommerce)
-
-### [Portfólio](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) · site pessoal
-
-Meus projetos em detalhe, com estudo de caso e histórico de experiência.
-
-React · TypeScript · Tailwind · Framer Motion
-
-[**Ver site →**](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) · [código](https://github.com/joaotabosa3599/portfolio)
-
-## Stack
+<br>
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<td width="33.33%" valign="top">
+<a href="https://cinesol-cinema.vercel.app">
+  <img src="assets/cinesol.svg" alt="CineSol, reserva de cinema" width="100%">
+</a>
+<p align="center">
+  <sub><b>Next.js · TypeScript · Tailwind</b></sub><br>
+  <a href="https://cinesol-cinema.vercel.app"><b>Ver demo</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/joaotabosa3599/cinesol-cinema">código</a>
+</p>
+</td>
+<td width="33.33%" valign="top">
+<a href="https://anabijus-ecommerce.vercel.app">
+  <img src="assets/anabijus.svg" alt="Anabijus, e-commerce de joias" width="100%">
+</a>
+<p align="center">
+  <sub><b>React · Vite · JavaScript</b></sub><br>
+  <a href="https://anabijus-ecommerce.vercel.app"><b>Ver demo</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/joaotabosa3599/anabijus-ecommerce">código</a>
+</p>
+</td>
+<td width="33.33%" valign="top">
+<a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app">
+  <img src="assets/portfolio.svg" alt="Portfólio, site pessoal" width="100%">
+</a>
+<p align="center">
+  <sub><b>React · TypeScript · Tailwind · Framer Motion</b></sub><br>
+  <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app"><b>Ver site</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/joaotabosa3599/portfolio">código</a>
+</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+## Stack
+
+<table align="center">
+<tr>
+<td align="center" valign="top" width="25%">
 
 **Interface**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)<br>
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 </td>
-<td valign="top" width="50%">
+<td align="center" valign="top" width="25%">
 
 **Servidor e dados**
 
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)<br>
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 </td>
-</tr>
-<tr>
-<td valign="top">
+<td align="center" valign="top" width="25%">
 
 **Mobile**
 
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 
 </td>
-<td valign="top">
+<td align="center" valign="top" width="25%">
 
 **Testes e deploy**
 
@@ -140,13 +183,28 @@ repositórios públicos.
 
 </details>
 
+<br>
+
 ## Estudando agora
 
-Arquitetura de API REST, modelagem relacional e Row Level Security no Postgres.
 Quero desenhar de onde o dado vem, não só consumi-lo.
+
+<table>
+<tr>
+<td align="center" width="33.33%">🧭<br><b>Arquitetura de API REST</b></td>
+<td align="center" width="33.33%">🗂️<br><b>Modelagem relacional</b></td>
+<td align="center" width="33.33%">🔐<br><b>Row Level Security no Postgres</b></td>
+</tr>
+</table>
+
+<br>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=joaotabosa3599&theme=radical&hide_border=true&border_radius=10&v=2" alt="Sequência de contribuições de João Tabosa no GitHub" width="500">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=joaotabosa3599&hide_border=true&border_radius=16&background=15171C&stroke=2B2E36&ring=7F5AF5&fire=5EEAD4&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=A48BFB&sideLabels=9A9CA3&dates=64666D&date_format=j%20M%5B%20Y%5D">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=joaotabosa3599&hide_border=true&border_radius=16&background=FFFFFF&stroke=E5E7EB&ring=7F5AF5&fire=0891B2&currStreakNum=111318&sideNums=111318&currStreakLabel=7F5AF5&sideLabels=64666D&dates=9A9CA3&date_format=j%20M%5B%20Y%5D">
+  <img src="https://streak-stats.demolab.com/?user=joaotabosa3599&hide_border=true&border_radius=16&background=15171C&stroke=2B2E36&ring=7F5AF5&fire=5EEAD4&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=A48BFB&sideLabels=9A9CA3&dates=64666D&date_format=j%20M%5B%20Y%5D" alt="Sequência de contribuições de João Tabosa no GitHub">
+</picture>
 
 </div>

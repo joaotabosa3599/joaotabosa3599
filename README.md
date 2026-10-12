@@ -88,6 +88,77 @@ esquecer de escrever.
 
 <br>
 
+<img src="assets/constela-orion.svg" alt="Constela & Órion, plataforma de estudos gamificada em pixel art. Estudar vira jogo. Cada dia, uma estrela." width="100%">
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Projeto_pessoal-reposit%C3%B3rio_privado-12161E?style=for-the-badge&labelColor=0D1017) &nbsp; ![Universos](https://img.shields.io/badge/Dois_universos-Constela_e_%C3%93rion-ED83B2?style=for-the-badge&labelColor=0D1017) &nbsp; ![Testes](https://img.shields.io/badge/293_testes-Vitest-6E9F18?style=for-the-badge&labelColor=0D1017)
+
+</div>
+
+**Constela & Órion** é uma plataforma de estudos gamificada em pixel art. Agenda
+semanal com arrastar e soltar, edital com o progresso de cada assunto, quizzes
+com explicação, simulados no tempo da prova e flashcards com repetição espaçada
+(FSRS). São dois universos trocáveis, cada um com mascote, paleta e céu animado
+próprios, a abelhinha Constela e o Ori, o axolote. Tudo funciona sem internet e
+sincroniza com a conta quando ela existe. XP e conquistas premiam a constância
+sem punir o dia perdido.
+
+> [!NOTE]
+> Projeto pessoal, por isso o repositório é privado e o app ainda não está
+> publicado. O GIF abaixo é o app real, com dados de demonstração.
+
+<details open>
+<summary><b>Da abertura ao estudo, nos dois universos</b> · GIF de 26s</summary>
+
+<br>
+
+<img src="assets/constela-orion-demo.gif" alt="Demonstração: a intro do Constela & Órion, com a abelhinha e o axolote dando um toca aqui; a Constela é escolhida e prepara o app; a página inicial abre com uma constelação se desenhando no céu; no Meu Cantinho, uma sessão é concluída e rende XP e conquistas; nas Configurações, o Ori assume o controle e repinta o site no universo Órion." width="100%">
+
+<p align="center"><sub>Intro com o toca aqui · escolher o parceiro, que prepara o app · o céu da página inicial · concluir uma sessão e ganhar XP · o Ori assume o controle e repinta tudo</sub></p>
+
+</details>
+
+<details>
+<summary><b>Como ele é montado</b></summary>
+
+<br>
+
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "fontFamily": "-apple-system, Segoe UI, Helvetica, Arial, sans-serif",
+  "primaryColor": "#16121d", "primaryTextColor": "#f3f4f6", "primaryBorderColor": "#2b2e36",
+  "lineColor": "#ed83b2", "edgeLabelBackground": "#0d1017", "clusterBkg": "#0d1017"
+}}}%%
+flowchart LR
+    U([Estudante]) --> APP["Next.js 16 App Router<br/>React 19 · Tailwind 4 · Canvas 2D"]
+    APP --> LOCAL[("Stores locais<br/>Zustand · IndexedDB")]
+    LOCAL <-->|"com conta"| SYNC["Motor de sincronização<br/>documento por área"]
+    SYNC --> SB[("Supabase<br/>Auth · Postgres com RLS")]
+    APP --> FSRS["FSRS-6<br/>repetição espaçada"]
+    APP --> RH["Route Handlers"]
+    RH --> AI["Gemini<br/>feedback e cartões"]
+    RH --> WEB["Busca na web<br/>bot de questões"]
+
+    classDef user fill:#16121d,stroke:#9ca3af,color:#f3f4f6
+    classDef app fill:#ed83b2,stroke:#f9a8d4,color:#1a1020
+    classDef data fill:#24427a,stroke:#5b9bff,color:#fff
+    classDef ext fill:#1a1f29,stroke:#64748b,color:#f3f4f6
+    class U user
+    class APP,RH app
+    class LOCAL,SYNC,SB data
+    class FSRS,AI,WEB ext
+```
+
+Local-first: cada tela lê e grava no próprio aparelho e funciona sem internet.
+Com conta, a sincronização roda em segundo plano, e o Row Level Security garante
+que cada pessoa só enxerga os próprios dados. Quem não tem conta nem baixa o
+Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
+
+</details>
+
+<br>
+
 <table>
 <tr>
 <td width="33.33%" valign="top">

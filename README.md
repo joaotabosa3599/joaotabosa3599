@@ -34,6 +34,23 @@ Contas em BRL, USD e EUR com cotação ao vivo, calculadora de resultado com câ
 embutido, prints e notas em cada trade, tags por estratégia, calendário de PNL,
 feedback de IA sobre o histórico, exportação em PDF e notificações push.
 
+**Stack**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-149ECA?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white) ![ECharts](https://img.shields.io/badge/ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Web Push](https://img.shields.io/badge/Web_Push-5A0FC8?style=flat-square&logo=pwa&logoColor=white) ![jsPDF](https://img.shields.io/badge/jsPDF-E5484D?style=flat-square) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
+**Destaques técnicos**
+
+- **Trades monitorados ao vivo:** um `pg_cron` roda a cada minuto, confere as velas
+  de 1 minuto e, se o preço tocou o stop ou o alvo, fecha a operação no nível,
+  calcula o resultado na moeda da conta e avisa por push.
+- **Sem service role no job:** a rotina lê e grava por funções do banco travadas
+  por um segredo, e o resto do app vive sob Row Level Security.
+- **Cena 3D no topo da página inicial**, com React Three Fiber e o scroll
+  coreografado em GSAP.
+- **Português e inglês**, com rotas por idioma e troca de idioma no app.
+- **Calendário econômico do TradingView** (FOMC, CPI, NFP) dentro do dashboard e
+  exportação da conta em PDF e CSV.
+
 > [!NOTE]
 > Produto comercial em desenvolvimento, por isso o repositório é privado.
 > O app está no ar e aberto para uso. Antes se chamava Liquid Journal.
@@ -104,6 +121,25 @@ próprios, a abelhinha Constela e o Ori, o axolote. Tudo funciona sem internet e
 sincroniza com a conta quando ela existe. XP e conquistas premiam a constância
 sem punir o dia perdido.
 
+**Stack**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-149ECA?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Zustand](https://img.shields.io/badge/Zustand-453F39?style=flat-square) ![IndexedDB](https://img.shields.io/badge/IndexedDB-F59E0B?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![FSRS-6](https://img.shields.io/badge/FSRS--6-ED83B2?style=flat-square) ![Canvas 2D](https://img.shields.io/badge/Canvas_2D-E34F26?style=flat-square&logo=html5&logoColor=white) ![Web Audio](https://img.shields.io/badge/Web_Audio-5B9BFF?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
+**Destaques técnicos**
+
+- **Local-first:** cada tela lê e grava no aparelho (Zustand e IndexedDB) e
+  funciona offline; com conta, um motor próprio sincroniza com o Supabase em
+  segundo plano, sem nunca misturar dados de contas diferentes.
+- **Motor de partículas em Canvas 2D**, um por universo: pétalas, estrelas
+  cadentes, vagalumes e constelações que se desenham, pausado fora da tela e
+  parado com movimento reduzido.
+- **Intro de jogo** em game loop, com hit-stop e efeitos sonoros sintetizados na
+  hora em Web Audio, sem arquivos de áudio.
+- **Temas trocados por CSS**, sem piscar na hidratação, e o mascote "repinta" o
+  site a partir de onde está com a View Transitions API.
+- **JavaScript enxuto:** sem bibliotecas de animação nem de gráfico, com Supabase,
+  formulários e abas secundárias sob demanda (35% a 61% menos JS por tela).
+
 > [!NOTE]
 > Projeto pessoal, por isso o repositório é privado e o app ainda não está
 > publicado. O GIF abaixo é o app real, com dados de demonstração.
@@ -166,7 +202,20 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
   <img src="assets/cinesol.svg" alt="CineSol, reserva de cinema" width="100%">
 </a>
 <p align="center">
-  <sub><b>Next.js · TypeScript · Tailwind</b></sub><br>
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4">
+  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white" alt="React Hook Form">
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod">
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion">
+</p>
+<ul>
+  <li><sub>Escolha de poltronas e combos da bomboniere</sub></li>
+  <li><sub>Checkout com cartão ou Pix e recibo por download ou e-mail</sub></li>
+  <li><sub>Cadastro e login validados com Zod e programa de pontos</sub></li>
+  <li><sub>Desafio em dupla do processo seletivo da Loading Jr.</sub></li>
+</ul>
+<p align="center">
   <a href="https://cinesol-cinema.vercel.app"><b>Ver demo</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/joaotabosa3599/cinesol-cinema">código</a>
@@ -177,7 +226,20 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
   <img src="assets/anabijus.svg" alt="Anabijus, e-commerce de joias" width="100%">
 </a>
 <p align="center">
-  <sub><b>React · Vite · JavaScript</b></sub><br>
+  <img src="https://img.shields.io/badge/React_19-149ECA?style=flat-square&logo=react&logoColor=white" alt="React 19">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React_Router_7-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router 7">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Font_Awesome-528DD7?style=flat-square&logo=fontawesome&logoColor=white" alt="Font Awesome">
+</p>
+<ul>
+  <li><sub>Rotas protegidas que devolvem você à página de origem após o login</sub></li>
+  <li><sub>Carrinho persistente com total em tempo real e histórico de pedidos</sub></li>
+  <li><sub>Busca global por nome ou categoria, layout mobile-first</sub></li>
+  <li><sub>Catálogo em JSON trocável por uma API real sem mexer nas telas</sub></li>
+</ul>
+<p align="center">
   <a href="https://anabijus-ecommerce.vercel.app"><b>Ver demo</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/joaotabosa3599/anabijus-ecommerce">código</a>
@@ -188,7 +250,21 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
   <img src="assets/portfolio.svg" alt="Portfólio, site pessoal" width="100%">
 </a>
 <p align="center">
-  <sub><b>React · TypeScript · Tailwind · Framer Motion</b></sub><br>
+  <img src="https://img.shields.io/badge/React_19-149ECA?style=flat-square&logo=react&logoColor=white" alt="React 19">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4">
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white" alt="GSAP">
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion">
+  <img src="https://img.shields.io/badge/Lenis-4B5563?style=flat-square" alt="Lenis">
+</p>
+<ul>
+  <li><sub>Cena 3D em CSS (sem WebGL) no topo, que se abre com o ponteiro</sub></li>
+  <li><sub>Abertura com câmera orbitando, pulável e desligada com movimento reduzido</sub></li>
+  <li><sub>Estudos de caso gerados a partir de dados</sub></li>
+  <li><sub>Imagens AVIF e WebP responsivas e fontes auto-hospedadas</sub></li>
+</ul>
+<p align="center">
   <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app"><b>Ver site</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/joaotabosa3599/portfolio">código</a>
@@ -209,8 +285,7 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)<br>
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 </td>
 <td align="center" valign="top" width="25%">
@@ -233,8 +308,7 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
 
 **Testes e deploy**
 
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 </td>
 </tr>
@@ -249,8 +323,7 @@ Java e C, da graduação em Engenharia da Computação. Estruturas de dados,
 processamento de texto e um sistema de gestão de funcionários estão nos
 repositórios públicos.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
 </details>
 

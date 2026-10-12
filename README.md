@@ -109,7 +109,7 @@ esquecer de escrever.
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Projeto_pessoal-reposit%C3%B3rio_privado-12161E?style=for-the-badge&labelColor=0D1017) &nbsp; ![Universos](https://img.shields.io/badge/Dois_universos-Constela_e_%C3%93rion-ED83B2?style=for-the-badge&labelColor=0D1017) &nbsp; ![Testes](https://img.shields.io/badge/293_testes-Vitest-6E9F18?style=for-the-badge&labelColor=0D1017)
+![Abrir o app em breve](https://img.shields.io/badge/Abrir_o_app-em_breve-4B5563?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1017) &nbsp; ![Status](https://img.shields.io/badge/Projeto_pessoal-reposit%C3%B3rio_privado-12161E?style=for-the-badge&labelColor=0D1017) &nbsp; ![Universos](https://img.shields.io/badge/Dois_universos-Constela_e_%C3%93rion-ED83B2?style=for-the-badge&labelColor=0D1017) &nbsp; ![Testes](https://img.shields.io/badge/293_testes-Vitest-6E9F18?style=for-the-badge&labelColor=0D1017)
 
 </div>
 
@@ -141,8 +141,9 @@ sem punir o dia perdido.
   formulários e abas secundárias sob demanda (35% a 61% menos JS por tela).
 
 > [!NOTE]
-> Projeto pessoal, por isso o repositório é privado e o app ainda não está
-> publicado. O GIF abaixo é o app real, com dados de demonstração.
+> Ainda não publicado: o app ganha domínio próprio em breve. O repositório é
+> privado por ser um projeto pessoal, e o GIF abaixo é o app real, com dados de
+> demonstração.
 
 <details open>
 <summary><b>Da abertura ao estudo, nos dois universos</b> · GIF de 26s</summary>

@@ -10,7 +10,7 @@
 
 <br>
 
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-7F5AF5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joãotabosa3599) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/j_pedro32k) [![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joao.tabosa3599@gmail.com)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-7F5AF5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-orcin-nine-x51rqo3inw.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaotabosa/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/j_pedro32k) [![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joao.tabosa3599@gmail.com)
 
 </div>
 

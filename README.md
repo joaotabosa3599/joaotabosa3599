@@ -4,7 +4,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner.svg" alt="João Tabosa, Full Stack Developer. Construo aplicações web do banco de dados à interface." width="100%">
+  <img src="assets/banner.svg" alt="João Tabosa, Full Stack e Automações. Aplicações web do banco à interface e bots que tiram o trabalho repetido." width="100%">
 </picture>
 </a>
 
@@ -276,11 +276,89 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
 
 <br>
 
+## Automações
+
+Bots de WhatsApp e robôs de leitura que tiram o trabalho repetido da equipe.
+
+<table>
+<tr>
+<td width="33.33%" valign="top">
+<a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app/projetos/bot-previdenciario">
+  <img src="assets/bot-previdenciario.jpg" alt="Bot do Previdenciário: conversa de demonstração no WhatsApp com um cliente fictício" width="100%">
+</a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest">
+</p>
+<ul>
+  <li><sub><b>Bot do Previdenciário</b> · RF Group</sub></li>
+  <li><sub>Tira as dúvidas frequentes dos clientes com textos aprovados pelo setor, sem IA na resposta</sub></li>
+  <li><sub>Caso pessoal vai para a equipe, com aviso fora do horário</sub></li>
+  <li><sub>Painel de aprovação dos textos · 608 testes · em testes com o setor</sub></li>
+</ul>
+<p align="center">
+  <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app/projetos/bot-previdenciario"><b>Estudo de caso</b></a>
+</p>
+</td>
+<td width="33.33%" valign="top">
+<a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app/projetos/bot-relatorio">
+  <img src="assets/bot-relatorio.jpg" alt="Bot de Relatório Diário: relatório de demonstração com dados fictícios" width="100%">
+</a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium">
+  <img src="https://img.shields.io/badge/Chrome_headless-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome headless">
+  <img src="https://img.shields.io/badge/unittest-4B5563?style=flat-square" alt="unittest">
+</p>
+<ul>
+  <li><sub><b>Bot de Relatório Diário</b> · RF Group</sub></li>
+  <li><sub>Lê o sistema de processos sem alterar nada e entrega o relatório do dia em HTML e PDF</sub></li>
+  <li><sub>Agenda, prazos atrasados, intimações sem tarefa, processos parados e conferência de planilhas</sub></li>
+  <li><sub>Trava de escrita antes do login · 253 testes · uso interno</sub></li>
+</ul>
+<p align="center">
+  <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app/projetos/bot-relatorio"><b>Estudo de caso</b></a>
+</p>
+</td>
+<td width="33.33%" valign="top">
+<a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app/projetos/bot-connect-valley">
+  <img src="assets/bot-connect-valley.jpg" alt="Bot Connect Valley: contagem regressiva no grupo do WhatsApp" width="100%">
+</a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/node--cron-4B5563?style=flat-square" alt="node-cron">
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render">
+</p>
+<ul>
+  <li><sub><b>Bot Connect Valley</b></sub></li>
+  <li><sub>Contagem regressiva para o evento no grupo da organização, todo dia às 5h</sub></li>
+  <li><sub>Conexão por QR code numa página própria e comandos de status</sub></li>
+  <li><sub>Reconecta sem duplicar a agenda; base do Bot do Previdenciário</sub></li>
+</ul>
+<p align="center">
+  <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app/projetos/bot-connect-valley"><b>Estudo de caso</b></a>
+</p>
+</td>
+</tr>
+</table>
+
+> [!NOTE]
+> Os repositórios são privados e as telas são de demonstração, com dados
+> fictícios: nada de cliente aparece aqui.
+
+<br>
+
 ## Stack
 
 <table align="center">
 <tr>
-<td align="center" valign="top" width="25%">
+<td align="center" valign="top" width="20%">
 
 **Interface**
 
@@ -289,7 +367,7 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 </td>
-<td align="center" valign="top" width="25%">
+<td align="center" valign="top" width="20%">
 
 **Servidor e dados**
 
@@ -298,14 +376,23 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 </td>
-<td align="center" valign="top" width="25%">
+<td align="center" valign="top" width="20%">
+
+**Automação**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)<br>
+![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)
+
+</td>
+<td align="center" valign="top" width="20%">
 
 **Mobile**
 
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 
 </td>
-<td align="center" valign="top" width="25%">
+<td align="center" valign="top" width="20%">
 
 **Testes e deploy**
 

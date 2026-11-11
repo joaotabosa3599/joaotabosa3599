@@ -248,7 +248,7 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
 </td>
 <td width="33.33%" valign="top">
 <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app">
-  <img src="assets/portfolio.svg" alt="Portfólio, site pessoal" width="100%">
+  <img src="assets/portfolio.svg" alt="Portfólio, produtos web e automações" width="100%">
 </a>
 <p align="center">
   <img src="https://img.shields.io/badge/React_19-149ECA?style=flat-square&logo=react&logoColor=white" alt="React 19">
@@ -260,10 +260,10 @@ Supabase, e o JavaScript inicial de cada tela fica entre 210 e 275 KB.
   <img src="https://img.shields.io/badge/Lenis-4B5563?style=flat-square" alt="Lenis">
 </p>
 <ul>
-  <li><sub>Cena 3D em CSS (sem WebGL) no topo, que se abre com o ponteiro</sub></li>
-  <li><sub>Abertura com câmera orbitando, pulável e desligada com movimento reduzido</sub></li>
-  <li><sub>Estudos de caso gerados a partir de dados</sub></li>
-  <li><sub>Imagens AVIF e WebP responsivas e fontes auto-hospedadas</sub></li>
+  <li><sub>Duas partes: produtos web e automações (bots e robôs)</sub></li>
+  <li><sub>Estudos de caso gerados a partir de dados, com telas de demonstração</sub></li>
+  <li><sub>Cores em 60-30-10, com o roxo como único destaque</sub></li>
+  <li><sub>Cena 3D em CSS no topo e imagens AVIF e WebP responsivas</sub></li>
 </ul>
 <p align="center">
   <a href="https://portfolio-orcin-nine-x51rqo3inw.vercel.app"><b>Ver site</b></a>

@@ -428,13 +428,11 @@ repositórios públicos.
 
 ## Estudando agora
 
-Quero desenhar de onde o dado vem, não só consumi-lo.
+Quero entender como uma aplicação é atacada, para construir já pensando na defesa.
 
 <table>
 <tr>
-<td align="center" width="33.33%">🧭<br><b>Arquitetura de API REST</b></td>
-<td align="center" width="33.33%">🗂️<br><b>Modelagem relacional</b></td>
-<td align="center" width="33.33%">🔐<br><b>Row Level Security no Postgres</b></td>
+<td align="center" width="100%">🛡️<br><b>Segurança de aplicações web</b></td>
 </tr>
 </table>
 

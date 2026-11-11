@@ -18,13 +18,13 @@
 
 ## Projetos
 
-<a href="https://liquid-journal-trading-app.vercel.app">
+<a href="https://debrief-trade.vercel.app">
   <img src="assets/debrief.svg" alt="Debrief, diário de trading com análise de performance. Opere com dados, evolua com evidências." width="100%">
 </a>
 
 <div align="center">
 
-[![Abrir o app](https://img.shields.io/badge/Abrir_o_app-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://liquid-journal-trading-app.vercel.app) &nbsp; ![Status](https://img.shields.io/badge/Produto_comercial-reposit%C3%B3rio_privado-12161E?style=for-the-badge&labelColor=0D1017) &nbsp; ![Beta](https://img.shields.io/badge/Gr%C3%A1tis_em_beta-sem_cart%C3%A3o-22C55E?style=for-the-badge&labelColor=0D1017)
+[![Abrir o app](https://img.shields.io/badge/Abrir_o_app-94B82C?style=for-the-badge&logo=vercel&logoColor=black)](https://debrief-trade.vercel.app) &nbsp; ![Status](https://img.shields.io/badge/Produto_comercial-reposit%C3%B3rio_privado-12161E?style=for-the-badge&labelColor=0D1017) &nbsp; ![Beta](https://img.shields.io/badge/Gr%C3%A1tis_em_beta-sem_cart%C3%A3o-789424?style=for-the-badge&labelColor=0D1017)
 
 </div>
 
@@ -50,19 +50,28 @@ feedback de IA sobre o histórico, exportação em PDF e notificações push.
 - **Português e inglês**, com rotas por idioma e troca de idioma no app.
 - **Calendário econômico do TradingView** (FOMC, CPI, NFP) dentro do dashboard e
   exportação da conta em PDF e CSV.
+- **Identidade nova (nov/2026):** paleta 60-30-10 com limão-musgo, símbolo "D."
+  com ponto final e tema claro e escuro em todas as telas, inclusive no PDF.
 
 > [!NOTE]
 > Produto comercial em desenvolvimento, por isso o repositório é privado.
 > O app está no ar e aberto para uso. Antes se chamava Liquid Journal.
 
 <details open>
-<summary><b>Registro de um trade, do ativo ao PNL</b> · GIF de 27s</summary>
+<summary><b>Telas do app</b> · paleta nova, tema escuro</summary>
 
 <br>
 
-<img src="assets/debrief-demo.gif" alt="Demonstração: no dashboard do Debrief, um trade em XAUUSD é importado pelo buscador de ativos, a calculadora estima o PNL em dólar, o print do gráfico e as notas são anexados, e ao salvar os indicadores e a curva de patrimônio se atualizam." width="100%">
+<img src="assets/debrief-visao.jpg" alt="Visão geral do Debrief no tema escuro: resultado, win rate, profit factor, expectancy, R:R médio, número de trades, drawdown máximo e o começo da curva de patrimônio, com o botão Novo Trade em limão-musgo." width="100%">
 
-<p align="center"><sub>Buscar o ativo · informar entrada e saída · a calculadora fecha o PNL na moeda da conta · anexar o print e as notas · salvar e ver o dashboard se atualizar</sub></p>
+<table>
+<tr>
+<td width="62%" valign="top"><img src="assets/debrief-calendario.jpg" alt="Calendário de PNL do mês, com os dias de gain em verde, os de loss em vermelho e o total de cada semana." width="100%"></td>
+<td width="38%" valign="top"><img src="assets/debrief-novo-trade.jpg" alt="Formulário Importar trade: conta, ativo, estratégia, lado, quantidade, preços de entrada e saída, risco planejado e datas." width="100%"></td>
+</tr>
+</table>
+
+<p align="center"><sub>Visão geral com as métricas da conta · calendário de PNL do mês · registro de um trade com o risco planejado. Conta de paper trading real, com 905 operações.</sub></p>
 
 </details>
 
@@ -74,8 +83,8 @@ feedback de IA sobre o histórico, exportação em PDF e notificações push.
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {
   "fontFamily": "-apple-system, Segoe UI, Helvetica, Arial, sans-serif",
-  "primaryColor": "#12161e", "primaryTextColor": "#f3f4f6", "primaryBorderColor": "#273040",
-  "lineColor": "#2563eb", "edgeLabelBackground": "#0d1017", "clusterBkg": "#0d1017"
+  "primaryColor": "#161813", "primaryTextColor": "#f3f4f6", "primaryBorderColor": "#2e3326",
+  "lineColor": "#94b82c", "edgeLabelBackground": "#0e0f0c", "clusterBkg": "#0e0f0c"
 }}}%%
 flowchart LR
     U([Trader]) --> APP["Next.js App Router<br/>React · Tailwind · ECharts"]
@@ -87,9 +96,9 @@ flowchart LR
     SA --> AI["Claude API<br/>feedback de performance"]
     SA --> PUSH["Web Push<br/>notificações"]
 
-    classDef user fill:#12161e,stroke:#9ca3af,color:#f3f4f6
-    classDef app fill:#2563eb,stroke:#60a5fa,color:#fff
-    classDef data fill:#14532d,stroke:#22c55e,color:#fff
+    classDef user fill:#161813,stroke:#9ca3af,color:#f3f4f6
+    classDef app fill:#94b82c,stroke:#b2cd5c,color:#141612
+    classDef data fill:#2a3313,stroke:#789424,color:#fff
     classDef ext fill:#1a1f29,stroke:#64748b,color:#f3f4f6
     class U user
     class APP,SA app
